@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Training artifacts (regeneratable — don't commit)
+runs/
+
+# Raw dataset (usually too large/unnecessary for the repo — keep locally
+# or use Git LFS / cloud storage if you need to version it)
+datasets/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Secrets
+.streamlit/secrets.toml
